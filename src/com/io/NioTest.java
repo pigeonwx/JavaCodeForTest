@@ -1,4 +1,4 @@
-package Java_test;
+package com.io;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
