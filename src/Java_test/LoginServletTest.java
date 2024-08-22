@@ -37,7 +37,7 @@ public class LoginServletTest extends TestCase {
         replay(request);
         replay(contextObj);
         replay(dispatcherObj);
-        // test:
+        // com.test:
         LoginServlet servlet = new LoginServlet() {
             private static final long serialVersionUID = 1L;
             public ServletContext getServletContext() {

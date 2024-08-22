@@ -38,7 +38,7 @@ public class ForkJoinExample extends RecursiveTask<Integer> {
             InterruptedException {
         ForkJoinExample example = new ForkJoinExample(1, 10000);
         ForkJoinPool forkJoinPool = new ForkJoinPool(); // 使用默认的构造函数
-        Future result = forkJoinPool.submit(example);
-        System.out.println(result.get());
+//        Future result = forkJoinPool.submit(example);
+//        System.out.println(result.get());
     }
 }

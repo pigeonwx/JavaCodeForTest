@@ -5,11 +5,11 @@ import java.sql.*;
 
 public class DBConnection {
     //数据库url，username，password
-//    static final String DB_url = "jdbc:mysql://localhost:3306/test";
+//    static final String DB_url = "jdbc:mysql://localhost:3306/com.test";
     static final String username = "root";
     static final String password = "Andy@1227";
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_url = "jdbc:mysql://localhost:3306/test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    static final String DB_url = "jdbc:mysql://localhost:3306/com.test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     public static void main(String[] args) {
         try {
             //1.注册JDBC驱动
