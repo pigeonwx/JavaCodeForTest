@@ -1,6 +1,6 @@
 package com.algo;
 import java.util.*;
-class test1 {
+class NextPermutation {
     public static void nextPermutation(int[] nums) {
         int last=nums.length-2;
         for(;last>=0;last--){

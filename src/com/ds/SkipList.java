@@ -1,4 +1,4 @@
-package com.algo;
+package com.ds;
 
 import java.util.Random;
 

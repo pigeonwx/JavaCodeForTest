@@ -1,4 +1,4 @@
-package com.algo;
+package com.algo.sort;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
